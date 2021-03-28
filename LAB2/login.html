@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>LOGIN PAGE</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <h1>Welcome to INTERNET-PROGRAMMING SHOP</h1>
+        <button id="upper"><span>로그인</span></button>
+        <hr>
+        <div>   
+            <p>회원 정보 (필수)</p>
+            <form>
+                <p>
+                    <label>유저 아이디: <input name="id" placeholder="아이디를 입력하세요" autocomplete="on" autofocus required /></label>
+                </p>
+                <p>
+                    <label>비밀번호: <input name="pw" type="password" placeholder="비밀번호를 입력하세요" required /></label>
+                </p>
+                <p>
+                    <label>비밀번호 확인: <input name="pw check" type="password" placeholder="비밀번호 확인" required /></label>
+                </p>
+                <p>
+                    <input id="login" type="submit" value="로그인" />
+                    <input id="signup" type="button" value="회원가입" onclick="location.href='signup.html'" />
+                </p>
+            </form>
+            
+        </div>
+        <hr>
+    </body>
+</html>

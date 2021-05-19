@@ -1,0 +1,182 @@
+[
+    {"name": "Caffe Americano",
+        "price": 4100,
+        "type": "coffee",
+        "brand": "Starbucks",
+        "img": "./image/s_americano.jpg",
+        "calory": 10,
+        "about": "진한 에스프레소에 시원한 정수물과 얼음을 더하여 스타벅스의 깔끔하고 강렬한 에스프레소를 가장 부드럽고 시원하게 즐길 수 있는 커피"
+    },
+
+    {"name": "Caffe Latte",
+        "price": 4600,
+        "type": "coffee",
+        "brand": "Starbucks",
+        "img": "./image/s_caffelatte.jpg",
+        "calory": 180,
+        "about": "풍부하고 진한 에스프레소가 신선한 스팀 밀크를 만나 부드러워진 커피 위에 우유 거품을 살짝 얹은 대표적인 커피 라떼"
+    },
+
+    {"name": "Caramel Machiato",
+        "price": 5600,
+        "type": "coffee",
+        "brand": "Starbucks",
+        "img": "./image/s_caramellatte.jpg",
+        "calory": 190,
+        "about": "향긋한 바닐라 시럽과 시원한 우유와 얼음을 넣고 점을 찍듯이 에스프레소를 부은 후 벌집 모양으로 카라멜 드리즐을 올린 달콤한 커피 음료"
+    },
+
+    {"name": "Dolce Latte",
+        "price": 5600,
+        "type": "coffee",
+        "brand": "Starbucks",
+        "img": "./image/s_dolcelatte.jpg",
+        "calory": 230,
+        "about": "스타벅스의 다른 커피 음료보다 더욱 깊은 커피의 맛과 향에 깔끔한 무지방 우유와 부드러운 돌체 시럽이 들어간 음료로 달콤하고 진한 커피 라떼"
+    },
+
+    {"name": "Grapefruit Honey Black Tea",
+        "price": 4400,
+        "type": "beverage",
+        "brand": "Starbucks",
+        "img": "./image/s_honeyblacktea.jpg",
+        "calory": 125,
+        "about": "새콤한 자몽과 달콤한 꿀이 깊고 그윽한 풍미의 스타벅스 티바나 블랙 티의 조화"
+    },
+
+    {"name": "7 Layer Chocolate Cake",
+        "price": 5700,
+        "type": "food",
+        "brand": "Starbucks",
+        "img": "./image/s_7layercake.jpg",
+        "calory": 608,
+        "about": "초콜릿, 가나슈, 모카로 만든 시트와 크림이 7개의 층을 이루어 모양부터 매력적인 케이크입니다."
+    },
+
+    {"name": "B.E.L.T Sandwich",
+        "price": 5900,
+        "type": "food",
+        "brand": "Starbucks",
+        "img": "./image/s_BELTsandwich.jpg",
+        "calory": 450,
+        "about": "주 재료인 베이컨(Bacon), 계란(Egg), 로메인 상추(Lettuce-Romane), 토마토(Tomato)의 각각의 머리 글자를 따온 이름의 샌드위치 입니다."
+    },
+
+    {"name": "Caffe Americano",
+        "price": 3200,
+        "type": "coffee",
+        "brand": "EDIYA",
+        "img": "./image/e_americano.JPG",
+        "calory": 6,
+        "about": "구운 견과류의 고소한 향미와 다크초콜렛의 Bitter sweet 깊고 깔끔한 애프터테이스트가 특징인 이디야의 대표음료"
+    },
+
+    {"name": "Caffe Latte",
+        "price": 3700,
+        "type": "coffee",
+        "brand": "EDIYA",
+        "img": "./image/e_caffelatte.JPG",
+        "calory": 105,
+        "about": "진한 에스프레소와 부드러운 우유가 만나 고소한 풍미를 더하는 가장 대중적인 메뉴"
+    },
+
+    {"name": "Chocolate Latte",
+        "price": 3700,
+        "type": "beverage",
+        "brand": "EDIYA",
+        "img": "./image/e_chocolate.JPG",
+        "calory": 315,
+        "about": "진한 모카시럽과 부드러운 우유, 그리고 달콤한 휘핑크림의 삼박자가 조화를 이루는 음료"
+    },
+
+    {"name": "Iced tea Peach",
+        "price": 2500,
+        "type": "beverage",
+        "brand": "EDIYA",
+        "img": "./image/e_icedtea.JPG",
+        "calory": 185,
+        "about": "홍차의 깊은 맛과 풍부한 복숭아 향이 어우러진 달콤한 여름철 인기 음료"
+    },
+
+    {"name": "Plain Bagel",
+        "price": 1900,
+        "type": "food",
+        "brand": "EDIYA",
+        "img": "./image/e_bagel.JPG",
+        "calory": 283,
+        "about": "아침식사 대용으로 좋은 담백하고 쫄깃한 맛의 베이글"
+    },
+
+    {"name": "Honey Caramel Bread",
+        "price": 4600,
+        "type": "food",
+        "brand": "EDIYA",
+        "img": "./image/e_honeybread.JPG",
+        "calory": 736,
+        "about": "은은한 시나몬과 진한 카라멜 코팅이 된 허니브레드에 휘핑크림을 더해 한결 부드러워진 맛의 허니브레드"
+    },
+
+    {"name": "Caffe Americano",
+        "price": 4100,
+        "type": "coffee",
+        "brand": "TwosomePlace",
+        "img": "./image/t_americano.JPG",
+        "calory": 10,
+        "about": "진하게 로스팅한 커피 원두에서 에스프레소를 추출하여 시원한 얼음을 담아 산뜻하게 즐길 수 있는 깔끔한 스타일의 에스프레소 음료"
+    },
+
+    {"name": "Caffe Latte",
+        "price": 4600,
+        "type": "coffee",
+        "brand": "TwosomePlace",
+        "img": "./image/t_caffelatte.JPG",
+        "calory": 100,
+        "about": "풍부하고 진한 농도의 에스프레소와 시원한 우유가 어우러진 부드러운 에스프레소 음료"
+    },
+
+    {"name": "Royal Milk Tea Shake",
+        "price": 6300,
+        "type": "beverage",
+        "brand": "TwosomePlace",
+        "img": "./image/t_royalmilktea.JPG",
+        "calory": 480,
+        "about": "은은한 얼그레이 향이 감도는 블랙티와 진한 소프트 아이스크림이 어우러진 투썸 아이스크림 디저트 음료"
+    },
+
+    {"name": "Citron Lemon Tea",
+        "price": 5500,
+        "type": "beverage",
+        "brand": "TwosomePlace",
+        "img": "./image/t_lemontea.JPG",
+        "calory": 250,
+        "about": "달콤쌉싸름한 유자청과 레몬즙이 어우러진 상큼한 시트러스티"
+    },
+
+    {"name": "Tiramisu Cake",
+        "price": 5900,
+        "type": "food",
+        "brand": "TwosomePlace",
+        "img": "./image/t_tiramisu.JPG",
+        "calory": 475,
+        "about": "마스카포네 치즈와 에스프레소 시럽으로 샌드된 촉촉한 시트 위에 코코아 파우더를 올린 이탈리아 대표 무스 케이크"
+    },
+
+    {"name": "Icebox Cake",
+        "price": 5900,
+        "type": "food",
+        "brand": "TwosomePlace",
+        "img": "./image/t_icebox.JPG",
+        "calory": 775,
+        "about": "마스카포네 크림 사이사이 블랙쿠키를 층층히 쌓고 촉촉하게 수분이 전이되어 부드럽게 즐길 수 있는 아메리칸 스타일의 케이크"
+    },
+
+    {"name": "Scramble Egg Sandwich",
+        "price": 5000,
+        "type": "food",
+        "brand": "TwosomePlace",
+        "img": "./image/t_sandwich.JPG",
+        "calory": 435,
+        "about": "부드러운 우유식빵에 스크램블 에그와 베이컨, 치즈가 어우러진 샌드위치"
+    }
+
+]

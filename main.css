@@ -1,0 +1,175 @@
+h1 {
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
+
+div > p {
+  font-weight: bold;
+  margin: none;
+  border: none;
+  padding: none;
+}
+
+p {
+  width: 300px;
+  height: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover,
+#view:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 4px grey;
+}
+
+#upper,
+#view {
+  border: none;
+  background-color: white;
+  color: #fd3e48;
+  z-index: 2;
+}
+
+span {
+  padding: 3px 0px 3px 0px;
+  border-top: 5px outset red;
+  border-bottom: 5px outset red;
+}
+
+#login {
+  border: 2px outset rgb(109, 108, 108);
+  border-radius: 3px;
+  background-color: #71fce5;
+  padding: 5px 20px 5px 20px;
+  margin-right: 5px;
+}
+#login:hover {
+  cursor: pointer;
+}
+
+#cancel {
+  border: 2px outset rgb(109, 108, 108);
+  border-radius: 3px;
+  background-color: #fd3e48;
+  padding: 5px 20px 5px 20px;
+  margin-left: 5px;
+}
+#cancel:hover {
+  cursor: pointer;
+}
+
+#signup {
+  border: 2px outset rgb(109, 108, 108);
+  border-radius: 3px;
+  background-color: rgb(29, 247, 247);
+  padding: 5px 20px 5px 20px;
+  margin: 0px;
+}
+#signup:hover {
+  cursor: pointer;
+}
+
+.main {
+  display: block;
+  width: 1020px;
+  margin: 0;
+  padding: 0;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.about-product {
+  display: flex;
+  width: 1020px;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+aside {
+  width: 30%;
+  top: 0px;
+  border-right: 2px outset black;
+}
+
+section {
+  width: 70%;
+  top: 0px;
+  height: 1000px;
+  overflow: auto;
+}
+
+#item {
+  display: inline-block;
+  width: 300px;
+  height: 360px;
+  border: 2px outset rgb(0, 0, 0);
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+img {
+  width: 200px;
+  height: 240px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+img:hover {
+  cursor: pointer;
+  transform-origin: 0% 0%;
+  transform: scale(1.5);
+  transition: transform 2s linear 0s;
+}
+
+@keyframes headerSlide {
+  from {
+    margin-left: 100%;
+    width: 200%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#header {
+  text-align: left;
+  animation-duration: 2s;
+  animation-name: headerSlide;
+  animation-timing-function: ease-in-out;
+}
+
+.footer {
+  display: flex;
+  width: 1020px;
+  margin: 0;
+  padding: 0;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer p {
+  width: auto;
+  height: auto;
+  column-count: 3;
+  column-gap: 30px;
+  column-width: 200px;
+  column-rule-style: double;
+  column-rule-width: 4px;
+}
+
+#more {
+  z-index: 3;
+  color: black;
+}

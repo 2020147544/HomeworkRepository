@@ -55,11 +55,11 @@
             var rightSection = document.querySelector('#product-list');
             let finalList = new Array;
             
-            /*window.onscroll = () => {
+            window.onscroll = () => {
                 load(products);
-                if (rightSection.innerHeight + rightSection.scrollY >= leftSection.offsetHeight) {
+                if (rightSection.scrollHeight - rightSection.scrollTop <= rightSection.clientHeight) {
                     load(finalList); }
-            };*/
+            };
     
             //fetch product.json
             fetch('product.json')
